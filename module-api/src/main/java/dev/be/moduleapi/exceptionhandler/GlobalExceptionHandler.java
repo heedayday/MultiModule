@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
     public CommonResponse<?> handleException(Exception e) {
         log.error("Unknown Exception", e);
         return getCommonResponse(CodeEnum.UNKNOWN_ERROR.getCode(),
-                                 CodeEnum.UNKNOWN_ERROR.getMessage());
+                                 Code09oEnum.UNKNOWN_ERROR.getMessage());
     }
 
     private CommonResponse<Object> getCommonResponse(String returnCode, String returnMessage) {

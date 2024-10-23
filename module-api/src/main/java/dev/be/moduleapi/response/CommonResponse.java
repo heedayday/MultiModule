@@ -29,6 +29,7 @@ public class CommonResponse<T> {
         this(CodeEnum.SUCCESS, info);
     }
 
+
     public CommonResponse(CodeEnum codeEnum, T info) {
         setReturnCode(codeEnum);
         setInfo(info);
