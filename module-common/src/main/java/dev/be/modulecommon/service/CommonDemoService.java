@@ -8,4 +8,5 @@ public class CommonDemoService {
     public String getModuleName() {
         return "common-moudle";
     }
+
 }
